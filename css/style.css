@@ -1,0 +1,65 @@
+/*---RESET---*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*----GENERAL----*/
+
+.container{
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-fluid{
+    max-width: 100%;
+    width: 7.5rem;
+}
+/*----TYPHOGRAPHY----*/
+body{
+    font-family: "Fredoka", sans-serif;
+
+}
+
+h1{
+    color:#E53170;
+    text-align: center;
+    margin: 2.5rem 0 ;
+    font-size: 2.5rem;
+}
+.intro{
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+/*----MAIN----*/
+.team-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3.75rem;
+    gap: 30px;
+}
+.card{
+    display: flex;
+    width: 31%;
+    background-color: black;
+    padding-right: 1.875rem;    
+}
+
+.card-info{
+    padding-left: 1rem;
+    color: white;
+}
+.space-top{
+    padding-top: 10px;
+}
+.space{
+    padding: 10px 0;
+}
+.card-info > a{
+    text-decoration: none;
+    color: #6ECBF2;
+}
